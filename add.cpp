@@ -1,10 +1,14 @@
-#include<iostream>
+#include <iostream>
+#include <cstdio>
+
 using namespace std;
 
-int main(int argc, char const *argv[])
+int main()
 {
-    int x,y;
-    cin>>x>>y;
-    cout<<x+y;
+    char str[100];
+    cout << "Enter a string: ";
+    gets(str);
+    cout << "You entered: " << str;
+    
     return 0;
 }
